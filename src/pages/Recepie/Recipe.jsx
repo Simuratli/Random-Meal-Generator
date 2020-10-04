@@ -30,7 +30,7 @@ function Recipe(props) {
     </div>
     <div className="content">
         <h1>{state.data.strMeal}</h1>
-        <h1>{state.data.strArea}</h1>
+        <h1 className="area">Area: {state.data.strArea}</h1>
         <span className='category'>{state.data.strCategory}</span>
     </div>
     </div>
@@ -38,7 +38,7 @@ function Recipe(props) {
         <p>{state.data.strInstructions}</p>
     </div>
     <div className="ingredients">
-        <h1>Inqredientlər</h1>
+        <h1>Ingredients</h1>
         <p>{state.data.strIngredient1}   <span>{state.data.strMeasure1}</span></p>
         <p>{state.data.strIngredient2}   <span>{    state.data.strMeasure2}</span></p>
         <p>{state.data.strIngredient3}   <span> {state.data.strMeasure3} </span></p>
