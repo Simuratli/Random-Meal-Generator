@@ -1,0 +1,16 @@
+.logo{
+    font-size: 30px;
+    background-color: #7F2CCB;
+    width: max-content;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.logo a{
+    color: whitesmoke;
+    text-decoration: none;
+}

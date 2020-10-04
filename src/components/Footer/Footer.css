@@ -1,0 +1,11 @@
+.footer{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.footer-link{
+    color: black;
+}

@@ -1,0 +1,10 @@
+.index{
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card-container{
+    display: grid;
+    place-items: center;
+}

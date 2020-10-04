@@ -1,0 +1,42 @@
+.recipe {
+    padding: 40px;
+    box-sizing: border-box;
+}
+.recipe-conteiner{
+    display: flex;
+}
+
+.recipe-image{
+    width: 40%;
+    height: 300px;
+}
+
+.recipe-image img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.recipe .content {
+    margin-left: 10px;
+}
+
+.recipe .category {
+    font-size: 20px;
+}
+
+.description {
+    margin-top: 10px;
+    background-color: whitesmoke;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.ingredients {
+    background-color:  #8D94BA;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
