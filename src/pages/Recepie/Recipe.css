@@ -56,3 +56,17 @@
     font-size: 23px;
     color: whitesmoke;
 }
+
+.youtube a{
+    background-color: #FF0000;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+@media(max-width:600px){
+ 
+.youtube a{
+    bottom: 10px;
+}   
+}
