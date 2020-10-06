@@ -1,0 +1,28 @@
+.category_card{
+    width: max-content;
+    background-color: #7F2CCB;
+    margin: 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.category_card a{
+   display: flex;
+   text-decoration: none;
+   color: white;
+   align-items: center;
+   gap: 10px;
+}
+
+
+.category_card a img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+
+ .category_card a h1 {
+     font-size: 20px;
+ }

@@ -1,0 +1,14 @@
+.category-container{
+    width: 100%;
+    gap: 20px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+
+@media(max-width:700px){
+    .category-container{
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+}
