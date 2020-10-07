@@ -17,9 +17,6 @@ const Index = lazy(()=>{
   return import('./pages/Index/Index')
 })
 
-const Index = lazy(()=>{
-  return import('./pages/Index/Index')
-})
 
 function App() {
   return (
