@@ -33,7 +33,7 @@ function App() {
          <Switch>
             <Route path='/' exact render={
               ()=>{
-              <Suspense fallback={<div>Loading...</div>}>
+              return <Suspense fallback={<div>Loading...</div>}>
                 <Index/>
               </Suspense>
               }
