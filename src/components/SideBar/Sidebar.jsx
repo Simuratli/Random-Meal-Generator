@@ -20,6 +20,7 @@ function Sidebar(props) {
             <ul className='list'>
                 <li onClick={Open}> <Link to="/categories">Categories</Link></li>
                 <li onClick={Open}> <Link  to="/search">Search</Link> </li>
+                <li onClick={Open}> <Link  to="/areas">Search by Area</Link> </li>
             </ul>
         </div>
         </>

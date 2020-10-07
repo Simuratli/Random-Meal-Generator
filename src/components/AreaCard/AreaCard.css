@@ -1,0 +1,12 @@
+.area-card{
+    width: max-content;
+    padding: 10px 20px;
+    color: white;
+    background-color:#7F2CCB;
+    border-radius: 3px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin: 10px;
+}

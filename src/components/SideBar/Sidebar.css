@@ -33,3 +33,10 @@
 .list li {
     margin: 20px !important;
 }
+
+@media(max-width:700px){
+    .list li a {
+        font-size: 20px;
+       
+    }
+}

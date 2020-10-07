@@ -8,6 +8,10 @@ import Recipe from './pages/Recepie/Recipe'
 import {RandomMealProvider} from './context/Random_Meal_Context'
 import Categories from './pages/Categories/Categories'
 import Category from './pages/Category/Category'
+import Search from './pages/Search/Search'
+import Area from './pages/Area/Area'
+import AreaResult from './pages/AreaResult/AreaResult'
+
 
 function App() {
   return (
@@ -23,6 +27,10 @@ function App() {
             <Route path='/recipe' exact component={Recipe} />
             <Route path='/categories' exact component={Categories} />
             <Route path='/category' exact component={Category} />
+            <Route path='/search' exact component={Search} />
+            <Route path='/areas' exact component={Area} />
+            <Route path='/area' exact component={AreaResult} />
+            
          </Switch>
         <Footer/>
       </div>
